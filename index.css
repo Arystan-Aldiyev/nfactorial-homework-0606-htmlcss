@@ -1,0 +1,189 @@
+body {
+  margin: 20px 40px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+.wrapper {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+.redExample {
+  flex: 1;
+  background-color: red;
+}
+
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+.blueExample {
+  flex: 1;
+  background-color: blue;
+}
+
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+.emptyExample2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.blueExample2 {
+  width: 80px;
+  background-color: blue;
+}
+
+/* TODO: Add CSS for the rest of your solution below */
+
+.wrapper3 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.red3 {
+  background-color: red;
+  width: 80px;
+}
+
+.blue3 {
+  background-color: blue;
+  width: 80px;
+}
+
+.red4 {
+  flex: 10;
+  background-color: red;
+}
+
+.blue4 {
+  width: 80px;
+  background-color: blue;
+}
+
+.wrapper5 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.red5 {
+  width: 35px;
+  height: 35px;
+  background-color: red;
+}
+
+.red61 {
+  flex: 10;
+  background-color: red;
+}
+
+.blue6 {
+  background-color: blue;
+  width: 80px;
+}
+
+.red62 {
+  flex: 10;
+  background-color: red;
+}
+
+.wrapper7 {
+  display: flex;
+  height: 60px;
+  background-color: blue;
+  margin-bottom: 20px;
+  flex-direction: row;
+}
+
+.red7 {
+
+  background-color: red;
+  width: 80px;
+}
+
+.greenline {
+  background-color: green;
+  height: 20px;
+  flex: 10;
+  align-self: center;
+}
+
+.wrapper8 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.yellow1 {
+  width: 80px;
+  background-color: yellow;
+}
+
+.yellow2 {
+  width: 80px;
+  background-color: yellow;
+}
+
+.yellow3 {
+  width: 80px;
+  background-color: yellow;
+}
+
+.yellow4 {
+  width: 80px;
+  background-color: yellow;
+}
+
+.yellow5 {
+  width: 80px;
+  background-color: yellow;
+}
+
+.wrapper9 {
+  display: flex;
+  height: 60px;
+  background-color: yellow;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+.green1 {
+  width: 20px;
+  background-color: green;
+}
+
+.green2 {
+  width: 20px;
+  background-color: green;
+}
+
+.green3 {
+  width: 20px;
+  background-color: green;
+}
+
+.green4 {
+  width: 20px;
+  background-color: green;
+}
+
+.green5 {
+  width: 20px;
+  background-color: green;
+}
